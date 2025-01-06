@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Website Portofolio Pribadi</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    </link>
+</head>
+
+<body>
+
+<!-- Navbar Start-->
+<nav class="navbar navbar-expand-sm navbar-dark">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">AURELLIA</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="profil.html">Profil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="galeri.html">Galeri</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Navbar End-->
+
+<!-- Contact Start-->
+<section id="contact">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col">
+                <h2>Contact Me</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+                    <strong>Terimakasih!</strong> Pesan anda sudah kami terima.
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+                <form name="contact-form">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nama Lengkap</label>
+                        <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="pesan" class="form-label">Pesan</label>
+                        <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-secondary btn-kirim">Kirim</button>
+
+                    <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                        Loading...
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#8cabff" fill-opacity="1"
+        d="M0,320L10,272C20,224,40,128,60,128C80,128,100,224,120,256C140,288,160,256,180,224C200,192,220,160,240,170.7C260,181,280,235,300,218.7C320,203,340,117,360,80C380,43,400,53,420,64C440,75,460,85,480,80C500,75,520,53,540,69.3C560,85,580,139,600,170.7C620,203,640,213,660,202.7C680,192,700,160,720,133.3C740,107,760,85,780,96C800,107,820,149,840,160C860,171,880,149,900,133.3C920,117,940,107,960,101.3C980,96,1000,96,1020,117.3C1040,139,1060,181,1080,181.3C1100,181,1120,139,1140,122.7C1160,107,1180,117,1200,149.3C1220,181,1240,235,1260,224C1280,213,1300,139,1320,106.7C1340,75,1360,85,1380,112C1400,139,1420,181,1430,202.7L1440,224L1440,0L1430,0C1420,0,1400,0,1380,0C1360,0,1340,0,1320,0C1300,0,1280,0,1260,0C1240,0,1220,0,1200,0C1180,0,1160,0,1140,0C1120,0,1100,0,1080,0C1060,0,1040,0,1020,0C1000,0,980,0,960,0C940,0,920,0,900,0C880,0,860,0,840,0C820,0,800,0,780,0C760,0,740,0,720,0C700,0,680,0,660,0C640,0,620,0,600,0C580,0,560,0,540,0C520,0,500,0,480,0C460,0,440,0,420,0C400,0,380,0,360,0C340,0,320,0,300,0C280,0,260,0,240,0C220,0,200,0,180,0C160,0,140,0,120,0C100,0,80,0,60,0C40,0,20,0,10,0L0,0Z">
+    </path>
+</svg>
+<!-- Contact End -->
+
+<!-- Footer Start -->
+<footer class="footer wow fadein">
+    <div class="container">
+        <div class="container-fluid">
+            <div class="footer-info">
+                <h2>Aurellia Callista Dewi</h2>
+                <h3>aurelliacallistadewi@gmail.com</h3>
+                <h3>Mahasiswi, Universitas PGRI Semarang, Indonesia</h3>
+                <div class="footer-menu">
+                    <p>+62 812-1551-1828</p>
+                    <p>+62 882-1637-0772</p>
+                </div>
+                <div class="footer-social">
+                    <a href="www.youtube.com/@aurelliacallista9603" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/4urlia_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="waktu">
+                    <p id="demo"></p>
+
+                    <script>
+                        const d = new Date();
+                        document.getElementById("demo").innerHTML = d;
+                    </script>
+                </div>
+            </div>
+        </div>
+</footer>
+<!-- Footer End -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxXkQqEJOXJsYOu2KPNywtcYi8Z05RUq3at90V3c_AsjgtAbSshPWtRX0l7gMPguIM/exec';
+    const form = document.forms['contact-form'];
+    const btnKirim = document.querySelector('.btn-kirim');
+    const btnLoading = document.querySelector('.btn-loading');
+    const myAlert = document.querySelector('.my-alert');
+
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        // ketika tombol submit diklik
+        // tampilkan tombol loading, hilangkan tombol kirim
+        btnLoading.classList.toggle('d-none');
+        btnKirim.classList.toggle('d-none');
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then((response) => {
+                // tampilkan tombol kirim, hilangkan tombol loading
+                btnLoading.classList.toggle('d-none');
+                btnKirim.classList.toggle('d-none');
+                // tampilkan alert
+                myAlert.classList.toggle('d-none');
+                // reset formnya
+                form.reset();
+                console.log('Success!', response);
+            })
+            .catch((error) => console.error('Error!', error.message));
+    });
+</script>
+</body>
+
+</html>
